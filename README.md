@@ -27,6 +27,10 @@ npm run dev
 
 A aplicação vai rodar na porta 3000 por padrão
 
-###
+### Testando a aplicação
 
-http://localhost:3000/alunos
+Para testar o servidor vamos usar o insomnia, você pode usar outra aplicação que envie requições http ou uma aplicação real, para o teste temos a seguinte rota que trabalha com uma tabela de alunos no mongo:
+
+http://localhost:3000/alunos GET/POST
+
+Abra o insomnia 
