@@ -34,3 +34,5 @@ Para testar o servidor vamos usar o insomnia, você pode usar outra aplicação 
 http://localhost:3000/alunos GET/POST
 
 Abra o insomnia 
+
+![Alt ou título da imagem](img-1.png)
