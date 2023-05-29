@@ -1,38 +1,32 @@
 # App Food
-### Preparação do ambiente de desenvolvimento
+## Preparação do ambiente de desenvolvimento
 
- - [ ] `npm i -g yarn`
- - [ ] `yarn init -y`
- - [ ] `yarn add -D typescript`
- Inicializa o Typescript
- - [ ] `yarn tsc`
- Inicializa o arquivo de configurações
- - [ ] `yarn tsc --init`
-Criar a pasta src
- - [ ] `yarn tsc`
-  Compila e cria os arquivos .js na mesma raiz, alterar o outDir no tsconfig altero para a pasta de saída dist.
- - [ ] `node index.js`
-  Inicializa o Git e adicionamso o .gitignore e adicionamso as pastas para não serem adicionadas
- - [ ] `git init`
-Instalar o eslint e editorconfig, para manter um padrão de codificação
- - [ ] Clicar botao direito e Generate .editorconfig
- - [ ] `npm init @eslint/config`
-	 - [ ] style
-	 - [ ] esm
-	 - [ ] none
-	 - [ ] Yes
-	 - [ ] node
-	 - [ ] prompt
-	 - [ ] JSON
-	 - [ ] tab
-	 - [ ] single
-	 - [ ] unix
-	 - [ ] Yes
-	 - [ ] Yes
-	 - [ ] yarn
- - [ ] `yarn add express`
- Da erro na tipagem ai pprecisamos instalar o types/express
- - [ ] `yarn add -D @types/express`
-Instalar as ferramentas para rodar o servidor com as alterações
- - [ ] `yarn add -D ts-node `
- - [ ] `npm i --save-dev -D nodemon`
+### Requisitos
+
+Node - https://nodejs.org/en
+
+Docker - https://www.docker.com/
+
+Insomnia (Opcional) - https://insomnia.rest/download
+
+### Rodando projeto
+
+Para instalar as dependencias do projeto use o comando:
+
+npm start
+
+O banco mongo precisar ser rodado em  um container docker, para rodar o banco use o comando:
+
+docker run --rm -d -p 27017:27017 mongo
+
+Esse comando vai repassar tudo que cair na porta 27017 do computador para a porta 27017 do container
+
+E por fim para rodar a aplicação use o comando:
+
+npm run dev
+
+A aplicação vai rodar na porta 3000 por padrão
+
+###
+
+http://localhost:3000/alunos
