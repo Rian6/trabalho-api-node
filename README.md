@@ -33,6 +33,19 @@ Para testar o servidor vamos usar o insomnia, você pode usar outra aplicação 
 
 http://localhost:3000/alunos GET/POST
 
-Abra o insomnia 
+Abra o insomnia e você vai ver essa tela
 
 ![Alt ou título da imagem](img-1.png)
+
+Para realizar um cadastro no banco precisamos trocar o tipo de requisição para post, colar a url selecionar o corpo para JSON e adicionar os dados, você pode usar esse JSON de exemplo para preencher a tabela de alunos:
+
+{
+	"nome": "",
+	"sobrenome": "",
+	"email": "",
+	"datanascimento": "",
+	"matricula": ""
+}
+
+![image](https://github.com/Rian6/trabalho-api-node/assets/34445730/7b840490-cacf-419b-b59a-bd946ac8901c)
+
