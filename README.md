@@ -1,4 +1,4 @@
-# App Food - (Aplicação didática feita para aula de Web 2)
+# Alunos - (Aplicação didática feita para aula de Web 2)
 ## Preparação do ambiente de desenvolvimento
 
 ### Requisitos
